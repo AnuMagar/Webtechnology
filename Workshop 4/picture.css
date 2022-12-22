@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+image{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    background-size: cover;
+    clip-path:circle();
+}
