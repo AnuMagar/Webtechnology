@@ -1,19 +1,21 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
-image{
-    height: 100vh;
+.image{
+    width: auto;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:antiquewhite;
 }
+
 .image img{
-    border-radius: 50%;
-    width: 600px;
     height: 600px;
-    background-size: cover;
-    clip-path:circle();
+    width: auto;
+    border-radius: 50%;
+    border: 10px solid #fff;
 }
