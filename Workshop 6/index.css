@@ -1,0 +1,44 @@
+:root{
+    --light-brown: #bbac97;
+    --dark-brown: #74574c;
+    --font: 32px;
+}
+
+.pixels{
+    width: 50px;
+    height: 50px;
+    border: 1px solid plum;
+    background-color: aqua;
+}
+
+.percent{
+    width: 50%;
+    font-size: 32px;
+    border: 2px solid saddlebrown;
+    background-color: bisque;
+}
+
+.em{
+    width: 2em;
+    border:3px solid brown;
+    background-color:blanchedalmond;
+}
+
+.rem{
+    width: 2rem;
+    border: 4px solid plum;
+    background-color:burlywood;
+}
+
+.viewportwidth{
+    width: 50vw;
+    border:6px solid #74574c;
+    background-color:chartreuse;
+    font-size: 32px;
+}
+
+.viewportheight{
+    width: 50vh;
+    border: 6px solid plum;
+    background-color:chocolate;
+}

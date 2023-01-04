@@ -19,6 +19,7 @@ body{
     height: 0;
     width: 100%;
     line-height: 3;
+    text-align: center;
 }
 
 .flex-container{
@@ -46,5 +47,15 @@ body{
 }
 
 .box1, .box2, .box3{
-    flex-grow: 0;
+    flex-grow: 0; 
+    text-align: center;
+}
+
+img{
+    height: 300px;
+    width: 100%;
+}
+
+.box1 h3, .box2 h3, .box3 h3{
+    padding-top: 25px;
 }
