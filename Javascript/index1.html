@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*function getUsername(){
+            let username=document.getElementById("nyName").value;
+            console.log(username);
+            //document.getElementById("para1").innerHTML = username;
+            document.getElementById("para1").append(username);
+        }*/
+
+        function getAge(){
+            let value=document.getElementById("age").value;
+            console.log(value);
+        
+        if(value>=18){
+            document.getElementById("para").innerHTML="You can vote if you are " +value;
+        }else{
+            document.getElementById("para").innerHTML="You cannot vote if you are " +value;
+        }
+    }
+    </script>
+
+</head>
+<body>
+    <label>Age</label>
+    <input type="text" id="age">
+    <button onclick="getAge()">Submit</button>
+    <p id="para"></p>
+</body>
+</html>
